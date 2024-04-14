@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(250, 205, 212, 0.425);
+  }
+/* heading  */
+header{
+    display: flex;
+}
+.logo{
+    /* font-family: ; */
+    color: rgb(242, 118, 138);
+    margin: 15px;
+}
+.nav{
+    margin: 0 auto;
+}
+.nav ul{
+    display: flex;
+    margin-top: 15px;
+}
+.nav ul li{
+    list-style: none;
+    width: 100px;
+    color: rgb(242, 118, 138);
+}
+
+/* body  */
+      section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+      }
+      /* sidebar  */
+      .sidebar{
+        width: fit-content;
+      }
+      .sidebar ul{
+        background-color: #ff95a6;
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        border-radius: 20px;
+      }
+      .sidebar ul li{
+        list-style: none;
+        padding: 10px 0;
+      }
+      .sidebar ul li a{
+        color: #fff;
+        text-decoration: none;
+
+      }
+      .sidebar ul li:hover{
+        background-color: #fff;
+        
+        border-radius: 10px;
+      }
+      .sidebar ul li:hover a{
+        color: #ff95a6;
+      }
+      
+      /* product  */
+      .hang-content{
+        display: flex;
+        width: fit-content;
+        margin-bottom: 30px;
+      }
+
+      section .product{
+        display: flex;
+        flex-direction: column;
+        width: 178px;
+        height: 250px;
+        background-color: #fff;
+        margin-left: 20px;
+        padding: 10px 0;
+        border-radius: 10px;
+      }
+      .product img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 15px;
+      }
+      .product a{
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: none;
+        color: #ff95a6;
+      }
+      .product b{
+        text-align: center;
+        color: #ff95a6;
+      }
+      /* hover  */
+      .product:hover{
+        background-color: #ff95a6;
+      }
+      .product:hover b,
+      .product:hover a{
+        color: #fff;
+      }
+      .product a:hover{
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+      }
+
